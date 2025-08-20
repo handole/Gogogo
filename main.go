@@ -12,7 +12,7 @@ func main() {
 	fmt.Println("================================================")
 	konstanta.Kalkulasi()
 	fmt.Println("================================================")
-	konstanta.Pengandai("GitHub", 1.0)
+	konstanta.HariApa("Rabu")
 	fmt.Println("================================================")
 	konstanta.LoadPaymentMethods()
 	fmt.Println("================================================")
