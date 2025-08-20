@@ -1,0 +1,170 @@
+[
+    {
+        "paymentGroupTitle": "Kartu Kredit/Kartu Debit ",
+        "childs": [
+            {
+                "title": "Credit/Debit Card",
+                "method": "credit_card",
+                "code": "credit_card",
+                "name": "CARD",
+                "description": "Kartu kredit/Kartu debit Anda",
+                "isDefault": true,
+                "logo": ""
+            }
+        ],
+        "code": "CARD"
+    },
+    {
+        "paymentGroupTitle": "Bank Virtual Account ",
+        "childs": [
+            {
+                "title": "Virtual Account BCA (Otomatis)",
+                "method": "bank_transfer",
+                "code": "bank-transfer",
+                "name": "bca-va",
+                "description": "Pembayaran Anda akan terkonfimasi secara otomatis dalam 24 jam",
+                "isDefault": false,
+                "logo": "https://cdnstaging.gramedia.com/static/assets/bca-va/highres.png"
+            },
+            {
+                "title": "Virtual Account BJB (Otomatis)",
+                "method": "bank_transfer",
+                "code": "bank-transfer",
+                "name": "BJB",
+                "description": "Pembayaran Anda akan terkonfimasi secara otomatis dalam 24 jam",
+                "isDefault": false,
+                "logo": "https://mitra-gm.s3.ap-southeast-1.amazonaws.com/production/logo/BJB.png"
+            },
+            {
+                "title": "Virtual Account BNI (Otomatis)",
+                "method": "bank_transfer",
+                "code": "bank-transfer",
+                "name": "BNI",
+                "description": "Pembayaran Anda akan terkonfimasi secara otomatis dalam 24 jam",
+                "isDefault": false,
+                "logo": "https://mitra-gm.s3.ap-southeast-1.amazonaws.com/production/logo/BNI.png"
+            },
+            {
+                "title": "Virtual Account BRI (Otomatis)",
+                "method": "bank_transfer",
+                "code": "bank-transfer",
+                "name": "BRI",
+                "description": "Pembayaran Anda akan terkonfimasi secara otomatis dalam 24 jam",
+                "isDefault": false,
+                "logo": "https://mitra-gm.s3.ap-southeast-1.amazonaws.com/production/logo/BRI.png"
+            },
+            {
+                "title": "Virtual Account BSI (Otomatis)",
+                "method": "bank_transfer",
+                "code": "bank-transfer",
+                "name": "BSI",
+                "description": "Pembayaran Anda akan terkonfimasi secara otomatis dalam 24 jam",
+                "isDefault": false,
+                "logo": "https://mitra-gm.s3.ap-southeast-1.amazonaws.com/production/logo/BSI.png"
+            },
+            {
+                "title": "Virtual Account Sampoerna (Otomatis)",
+                "method": "bank_transfer",
+                "code": "bank-transfer",
+                "name": "SAHABAT_SAMPOERNA",
+                "description": "Pembayaran Anda akan terkonfimasi secara otomatis dalam 24 jam",
+                "isDefault": false,
+                "logo": "https://mitra-gm.s3.ap-southeast-1.amazonaws.com/production/logo/SAMPOERNA.png"
+            },
+            {
+                "title": "Virtual Account CIMB (Otomatis)",
+                "method": "bank_transfer",
+                "code": "bank-transfer",
+                "name": "CIMB",
+                "description": "Pembayaran Anda akan terkonfimasi secara otomatis dalam 24 jam",
+                "isDefault": false,
+                "logo": "https://mitra-gm.s3.ap-southeast-1.amazonaws.com/production/logo/CIMB.png"
+            },
+            {
+                "title": "Virtual Account Mandiri (Otomatis)",
+                "method": "bank_transfer",
+                "code": "bank-transfer",
+                "name": "MANDIRI",
+                "description": "Pembayaran Anda akan terkonfimasi secara otomatis dalam 24 jam",
+                "isDefault": false,
+                "logo": "https://cdnstaging.gramedia.com/static/assets/mandiri-va/highres.png"
+            },
+            {
+                "title": "Virtual Account Permata/ATM Bersama (Otomatis)",
+                "method": "bank_transfer",
+                "code": "bank-transfer",
+                "name": "PERMATA",
+                "description": "Pembayaran Anda akan terkonfimasi secara otomatis dalam 24 jam",
+                "isDefault": false,
+                "logo": "https://cdnstaging.gramedia.com/static/assets/permata-va/highres.png"
+            }
+        ],
+        "code": "bank-transfer"
+    },
+    {
+        "paymentGroupTitle": "Uang Elektronik ",
+        "childs": [
+            {
+                "title": "AstraPay",
+                "method": "ewallet",
+                "code": "electronic-money",
+                "name": "ASTRAPAY",
+                "description": "Mohon siapkan aplikasi AstraPay Anda",
+                "isDefault": false,
+                "logo": "https://mitra-gm.s3.ap-southeast-1.amazonaws.com/production/logo/astrapay-highres.png"
+            },
+            {
+                "title": "Dana",
+                "method": "ewallet",
+                "code": "electronic-money",
+                "name": "DANA",
+                "description": "Mohon siapkan aplikasi Dana Anda",
+                "isDefault": false,
+                "logo": "https://mitra-gm.s3.ap-southeast-1.amazonaws.com/production/logo/DANA.png"
+            },
+            {
+                "title": "GoPay/QRIS",
+                "method": "gopay",
+                "code": "electronic-money",
+                "name": "go-pay",
+                "description": "Mohon siapkan aplikasi GO-JEK Anda",
+                "isDefault": false,
+                "logo": "https://cdnstaging.gramedia.com/static/assets/go-pay/highres.png"
+            },
+            {
+                "title": "LinkAja",
+                "method": "ewallet",
+                "code": "electronic-money",
+                "name": "LINKAJA",
+                "description": "Mohon siapkan aplikasi LinkAja Anda",
+                "isDefault": false,
+                "logo": "https://mitra-gm.s3.ap-southeast-1.amazonaws.com/production/logo/LINK%20AJA.png"
+            },
+            {
+                "title": "OVO",
+                "method": "ewallet",
+                "code": "electronic-money",
+                "name": "OVO",
+                "description": "Mohon siapkan aplikasi OVO Anda",
+                "isDefault": false,
+                "logo": "https://mitra-gm.s3.ap-southeast-1.amazonaws.com/production/logo/OVO.png"
+            }
+        ],
+        "code": "electronic-money"
+    },
+    {
+        "paymentGroupTitle": "QRIS",
+        "childs": [
+            {
+                "title": "QR_CODE",
+                "method": "qris",
+                "code": "qris",
+                "name": "QR_CODE",
+                "description": "Mohon siapkan aplikasi QRIS Anda",
+                "isDefault": false,
+                "logo": "https://mitra-gm.s3.ap-southeast-1.amazonaws.com/production/logo/logo-qris.png"
+            }
+        ],
+        "code": "qris"
+    }
+]
