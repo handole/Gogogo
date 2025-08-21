@@ -41,15 +41,16 @@ func LoadPaymentMethods() {
 	// Tampilkan hasil
 	for _, method := range methods {
 		fmt.Println("Payment Group Title:", method.PaymentGroupTitle)
-		// for _, child := range method.Childs {
-		// 	fmt.Println("  Title:", child.Title)
-		// 	fmt.Println("  Method:", child.Method)
-		// 	fmt.Println("  Code:", child.Code)
-		// 	fmt.Println("  Name:", child.Name)
-		// 	fmt.Println("  Description:", child.Description)
-		// 	fmt.Println("  Is Default:", child.IsDefault)
-		// 	fmt.Println("  Logo:", child.Logo)
-		// }
+		for _, child := range method.Childs {
+			fmt.Println("  Title:", child.Title)
+			fmt.Println("  Method:", child.Method)
+			fmt.Println("  Code:", child.Code)
+			fmt.Println("  Name:", child.Name)
+			fmt.Println("  Description:", child.Description)
+			fmt.Println("  Is Default:", child.IsDefault)
+			fmt.Println("  Logo:", child.Logo)
+		}
 		fmt.Println("Code:", method.Code)
+		fmt.Println("================================================")
 	}
 }
