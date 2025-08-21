@@ -21,5 +21,7 @@ func main() {
 	// soal.BilanganParam(35)
 	// soal.TebakHari("Selasa")
 	// soal.TabelPerkalian(15)
-	soal.BigNumber()
+	// soal.BigNumber()
+	// soal.FizzBuzz()
+	soal.Palindrome("SalaS")
 }
