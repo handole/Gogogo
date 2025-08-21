@@ -2,7 +2,8 @@ package soal
 
 import "fmt"
 
-func BigNumber(nums []int) {
+func BigNumber() {
+	nums := []int{43, 121, 99, 54, 12, 41, 126, 152, 24}
 	if len(nums) == 0 {
 		fmt.Println("Array kosong.")
 		return

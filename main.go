@@ -21,5 +21,5 @@ func main() {
 	// soal.BilanganParam(35)
 	// soal.TebakHari("Selasa")
 	// soal.TabelPerkalian(15)
-	soal.BigNumber([43 121 99 54 12 ])
+	soal.BigNumber()
 }
