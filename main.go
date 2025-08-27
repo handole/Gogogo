@@ -1,7 +1,10 @@
 package main
 
 import (
-	"Gogogo/soal"
+	// "Gogogo/konstanta
+	// conndb "Gogogo/conn_db"
+	// "Gogogo/soal"
+	"Gogogo/math"
 )
 
 func main() {
@@ -23,5 +26,8 @@ func main() {
 	// soal.TabelPerkalian(15)
 	// soal.BigNumber()
 	// soal.FizzBuzz()
-	soal.Palindrome("SalaS")
+	// soal.Palindrome("SalaS")
+	// conndb.ConnectDB()
+	// math.Usia(13)
+	math.Tebakanya()
 }
