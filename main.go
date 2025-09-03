@@ -4,7 +4,8 @@ import (
 	// "Gogogo/konstanta
 	// conndb "Gogogo/conn_db"
 	// "Gogogo/soal"
-	"Gogogo/math"
+	// "Gogogo/math"
+	"Gogogo/array"
 )
 
 func main() {
@@ -29,5 +30,12 @@ func main() {
 	// soal.Palindrome("SalaS")
 	// conndb.ConnectDB()
 	// math.Usia(13)
-	math.Tebakanya()
+	// math.Tebakanya()
+	// array.ListMonths()
+	// array.ListNumbers()
+	// numbers := []int{10, 20, 30, 40, 50}
+	// numbers, val := array.ListPop(numbers)
+	// println("Nilai yang di-pop:", val)
+	// println("Slice setelah pop:", numbers)
+	array.ListCapacity()
 }
