@@ -3,9 +3,9 @@ package math
 import "fmt"
 
 func TebakAngka(tebakan int) (bool, string) {
-	angkaRahasia := 7
-	if tebakan < 1 || tebakan > 10 {
-		return false, "Tebakan harus antara 1 hingga 10."
+	angkaRahasia := 54
+	if tebakan < 1 || tebakan > 100 {
+		return false, "Tebakan harus antara 1 hingga 100."
 	}
 	if tebakan < angkaRahasia {
 		return false, "Tebakan terlalu rendah."
@@ -19,7 +19,7 @@ func TebakAngka(tebakan int) (bool, string) {
 func Tebakanya() {
 	var tebakan int
 
-	fmt.Println("Tebak angka antara 1 - 10")
+	fmt.Println("Tebak angka antara 1 - 100")
 	fmt.Print("Masukkan tebakanmu: ")
 	fmt.Scan(&tebakan)
 
